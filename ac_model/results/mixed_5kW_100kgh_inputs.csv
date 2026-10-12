@@ -1,0 +1,12 @@
+parameter,value
+fluid,R1234yf
+mode_e,capacity
+mode_ch,flow
+Te_C,5
+Tc_C,50
+SH_e_K,5
+SH_ch_K,5
+SC_K,5
+eta_is,0.7
+value_e,5
+value_ch,100

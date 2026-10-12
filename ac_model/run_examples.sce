@@ -1,0 +1,12 @@
+exec(get_absolute_file_path("run_examples.sce")+"loader.sce",-1);
+ac_folder=AC_ROOT+"results";
+c=ac_defaults();
+low=ac_cycle(c); ac_report(low); ac_export(low,ac_folder,"low");
+c.value_ch=250;
+high=ac_cycle(c); ac_report(high); ac_export(high,ac_folder,"high");
+c=ac_defaults(); c.mode_e="capacity"; c.value_e=5;
+mixed=ac_cycle(c); ac_report(mixed); ac_export(mixed,ac_folder,"mixed_5kW_100kgh");
+c.mode_ch="capacity"; c.value_ch=3;
+inverse=ac_cycle(c); ac_report(inverse); ac_export(inverse,ac_folder,"inverse_5kW_3kW");
+mprintf("\nCSV files written to %s\n",ac_folder);
+mprintf("Optional GUI plot: ac_plot_ph(low);\n");

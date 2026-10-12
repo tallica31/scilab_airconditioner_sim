@@ -1,0 +1,136 @@
+Shared archive loaded.
+Link done.
+AC model loaded: <package>/
+PASS: core reference, balances, inverse, mixing, saturation, sensitivity and invalid inputs.
+Diagram created in scs_m. Run xcos(scs_m) to open it.
+Save as ac_steady.zcos in Xcos. Run loader.sce before reopening/simulating.
+PASS: integrated Xcos simulation and all output samples.
+AC model loaded: <package>/
+
+R1234yf steady cycle -- prescribed Te/Tc/SH/SC
+p_low_MPaA                    0.373006
+p_high_MPaA                   1.302349
+m_evap_kgh                  150.000000
+m_chiller_kgh               100.000000
+m_total_kgh                 250.000000
+Q_evap_kW                     4.544211
+Q_chiller_kW                  3.029474
+W_to_refrigerant_kW           2.262721
+Q_condenser_kW                9.836405
+T_discharge_C                59.613489
+quality_valve_out             0.348589
+COP_refrigerant               3.347158
+Energy residual [W]: -3.183e-12
+
+Port                        T[C]    p[MPaA]    h[kJ/kg]   m[kg/h]    quality phase
+compressor_in             10.000   0.373006    371.4474   250.000         -- superheated_vapor
+compressor_out            59.613   1.302349    404.0306   250.000         -- superheated_vapor
+condenser_in              59.613   1.302349    404.0306   250.000         -- superheated_vapor
+condenser_out             45.000   1.302349    262.3863   250.000         -- subcooled_liquid
+evap_valve_in             45.000   1.302349    262.3863   150.000         -- subcooled_liquid
+evap_valve_out             5.000   0.373006    262.3863   150.000    0.34859 two_phase
+evaporator_in              5.000   0.373006    262.3863   150.000    0.34859 two_phase
+evaporator_out            10.000   0.373006    371.4474   150.000         -- superheated_vapor
+chiller_valve_in          45.000   1.302349    262.3863   100.000         -- subcooled_liquid
+chiller_valve_out          5.000   0.373006    262.3863   100.000    0.34859 two_phase
+chiller_in                 5.000   0.373006    262.3863   100.000    0.34859 two_phase
+chiller_out               10.000   0.373006    371.4474   100.000         -- superheated_vapor
+
+R1234yf steady cycle -- prescribed Te/Tc/SH/SC
+p_low_MPaA                    0.373006
+p_high_MPaA                   1.302349
+m_evap_kgh                  150.000000
+m_chiller_kgh               250.000000
+m_total_kgh                 400.000000
+Q_evap_kW                     4.544211
+Q_chiller_kW                  7.573685
+W_to_refrigerant_kW           3.620354
+Q_condenser_kW               15.738249
+T_discharge_C                59.613489
+quality_valve_out             0.348589
+COP_refrigerant               3.347158
+Energy residual [W]: -4.547e-13
+
+Port                        T[C]    p[MPaA]    h[kJ/kg]   m[kg/h]    quality phase
+compressor_in             10.000   0.373006    371.4474   400.000         -- superheated_vapor
+compressor_out            59.613   1.302349    404.0306   400.000         -- superheated_vapor
+condenser_in              59.613   1.302349    404.0306   400.000         -- superheated_vapor
+condenser_out             45.000   1.302349    262.3863   400.000         -- subcooled_liquid
+evap_valve_in             45.000   1.302349    262.3863   150.000         -- subcooled_liquid
+evap_valve_out             5.000   0.373006    262.3863   150.000    0.34859 two_phase
+evaporator_in              5.000   0.373006    262.3863   150.000    0.34859 two_phase
+evaporator_out            10.000   0.373006    371.4474   150.000         -- superheated_vapor
+chiller_valve_in          45.000   1.302349    262.3863   250.000         -- subcooled_liquid
+chiller_valve_out          5.000   0.373006    262.3863   250.000    0.34859 two_phase
+chiller_in                 5.000   0.373006    262.3863   250.000    0.34859 two_phase
+chiller_out               10.000   0.373006    371.4474   250.000         -- superheated_vapor
+
+R1234yf steady cycle -- prescribed Te/Tc/SH/SC
+p_low_MPaA                    0.373006
+p_high_MPaA                   1.302349
+m_evap_kgh                  165.045164
+m_chiller_kgh               100.000000
+m_total_kgh                 265.045164
+Q_evap_kW                     5.000000
+Q_chiller_kW                  3.029474
+W_to_refrigerant_kW           2.398893
+Q_condenser_kW               10.428367
+T_discharge_C                59.613489
+quality_valve_out             0.348589
+COP_refrigerant               3.347158
+Energy residual [W]: 4.547e-13
+
+Port                        T[C]    p[MPaA]    h[kJ/kg]   m[kg/h]    quality phase
+compressor_in             10.000   0.373006    371.4474   265.045         -- superheated_vapor
+compressor_out            59.613   1.302349    404.0306   265.045         -- superheated_vapor
+condenser_in              59.613   1.302349    404.0306   265.045         -- superheated_vapor
+condenser_out             45.000   1.302349    262.3863   265.045         -- subcooled_liquid
+evap_valve_in             45.000   1.302349    262.3863   165.045         -- subcooled_liquid
+evap_valve_out             5.000   0.373006    262.3863   165.045    0.34859 two_phase
+evaporator_in              5.000   0.373006    262.3863   165.045    0.34859 two_phase
+evaporator_out            10.000   0.373006    371.4474   165.045         -- superheated_vapor
+chiller_valve_in          45.000   1.302349    262.3863   100.000         -- subcooled_liquid
+chiller_valve_out          5.000   0.373006    262.3863   100.000    0.34859 two_phase
+chiller_in                 5.000   0.373006    262.3863   100.000    0.34859 two_phase
+chiller_out               10.000   0.373006    371.4474   100.000         -- superheated_vapor
+
+R1234yf steady cycle -- prescribed Te/Tc/SH/SC
+p_low_MPaA                    0.373006
+p_high_MPaA                   1.302349
+m_evap_kgh                  165.045164
+m_chiller_kgh                99.027098
+m_total_kgh                 264.072262
+Q_evap_kW                     5.000000
+Q_chiller_kW                  3.000000
+W_to_refrigerant_kW           2.390087
+Q_condenser_kW               10.390087
+T_discharge_C                59.613489
+quality_valve_out             0.348589
+COP_refrigerant               3.347158
+Energy residual [W]: -5.002e-12
+
+Port                        T[C]    p[MPaA]    h[kJ/kg]   m[kg/h]    quality phase
+compressor_in             10.000   0.373006    371.4474   264.072         -- superheated_vapor
+compressor_out            59.613   1.302349    404.0306   264.072         -- superheated_vapor
+condenser_in              59.613   1.302349    404.0306   264.072         -- superheated_vapor
+condenser_out             45.000   1.302349    262.3863   264.072         -- subcooled_liquid
+evap_valve_in             45.000   1.302349    262.3863   165.045         -- subcooled_liquid
+evap_valve_out             5.000   0.373006    262.3863   165.045    0.34859 two_phase
+evaporator_in              5.000   0.373006    262.3863   165.045    0.34859 two_phase
+evaporator_out            10.000   0.373006    371.4474   165.045         -- superheated_vapor
+chiller_valve_in          45.000   1.302349    262.3863    99.027         -- subcooled_liquid
+chiller_valve_out          5.000   0.373006    262.3863    99.027    0.34859 two_phase
+chiller_in                 5.000   0.373006    262.3863    99.027    0.34859 two_phase
+chiller_out               10.000   0.373006    371.4474    99.027         -- superheated_vapor
+
+CSV files written to <package>/results
+Optional GUI plot: ac_plot_ph(low);
+AC model loaded: <package>/
+  "Tc_C,p_low_MPaA,p_high_MPaA,m_evap_kgh,m_chiller_kgh,m_total_kgh,Q_evap_kW,Q_chiller_kW,W_to_refrigerant_kW,Q_condenser_kW,T_discharge_C,quality_valve_out,COP_refrigerant"
+  "40,0.3730060805,1.018472884,150,250,400,5.15372403,8.58954005,2.929457354,16.67272143,49.11951752,0.2572642639,4.69140268"
+  "45,0.3730060805,1.153889338,150,250,400,4.851776246,8.086293744,3.282743502,16.22081349,54.38279535,0.3025056125,3.941236951"
+  "50,0.3730060805,1.302349291,150,250,400,4.544210709,7.573684514,3.620353525,15.73824875,59.61348872,0.3485886787,3.347157989"
+  "55,0.3730060805,1.464696155,150,250,400,4.230427482,7.050712469,3.942468637,15.22360859,64.82768443,0.3956033519,2.861440633"
+  "60,0.3730060805,1.641830407,150,250,400,3.909693315,6.516155526,4.249275964,14.67512481,70.04131112,0.443659496,2.453558896"
+  "65,0.3730060805,1.834725739,150,250,400,3.581102864,5.968504773,4.540987201,14.09059484,75.26987682,0.4928927608,2.102980522"
+PASS: saved cosf integrated simulation and example/sweep CSV export.

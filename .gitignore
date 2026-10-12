@@ -1,0 +1,11 @@
+# Locally installed CoolProp binaries
+ac_model/lib/*.dll
+ac_model/lib/*.so
+ac_model/lib/*.so.*
+ac_model/lib/*.dylib
+
+# Editor and operating-system temporary files
+*.bak
+*~
+.DS_Store
+Thumbs.db

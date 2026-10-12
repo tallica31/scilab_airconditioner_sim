@@ -1,0 +1,15 @@
+metric,value
+p_low_MPaA,0.373006080476
+p_high_MPaA,1.30234929076
+m_evap_kgh,150
+m_chiller_kgh,250
+m_total_kgh,400
+Q_evap_kW,4.54421070863
+Q_chiller_kW,7.57368451439
+W_to_refrigerant_kW,3.62035352497
+Q_condenser_kW,15.738248748
+T_discharge_C,59.6134887169
+quality_valve_out,0.348588678718
+COP_refrigerant,3.3471579887
+energy_residual_W,-4.54747350886e-13
+mass_residual_kgs,0
